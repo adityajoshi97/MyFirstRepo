@@ -5,11 +5,15 @@ public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         Hello hello = new Hello();
-        hello.showNum(30);
+        hello.add(30);
     }
 
-    public void showNum(int number) {
-        System.out.println("Number : " + num*number);
+    public void add(int number) {
+        System.out.println("Add : " + num + number);
+    }
+
+    public void multiply(int number) {
+        System.out.println("Multiply : " + num * number);
     }
 
 }
